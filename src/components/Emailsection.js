@@ -1,6 +1,6 @@
 // src/components/HousingSection.js
 import React from 'react';
-import housing from "../assets/housing.jpg"
+import email from '../assets/email.png'
 import attachment2 from "../assets/attachment2.svg"
 
 const Emailsection = () => {
@@ -43,7 +43,7 @@ const Emailsection = () => {
             />
   
             <img
-              src={housing} 
+              src={email} 
               alt="Housing Improvements"
               className="w-full h-auto rounded-lg  z-[1000] relative"
             />
